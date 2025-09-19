@@ -2,8 +2,7 @@
 :root {
   --primary-color: #005f73;
   --accent1-color: #0a9396;
-  --heading-font: 'Segoe UI', Tahoma, sans-serif;
-  --body-font: 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 /* Reset & base styles */
@@ -14,7 +13,7 @@
 }
 
 body {
-  font-family: var(--body-font);
+  
   color: var(--accent1-color);
   background: #f8f9fa;
 }
@@ -25,7 +24,7 @@ header, main, footer {
 }
 
 h1, h2 {
-  font-family: var(--heading-font);
+  
   color: var(--primary-color);
 }
 
@@ -92,3 +91,4 @@ nav, p, section, article {
 
 
 }
+
