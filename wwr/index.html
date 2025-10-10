@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Home — White Water Rafting Co. Hero image, newsletter signup, featured trips, and call to action to book your next adventure.">
+  <meta name="author" content="Malcom X">
+  <title>White Water Rafting Co. — Home</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/WWR.png" alt="White Water Rafting Co. Logo" height="60">
+    <nav>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero home-hero" role="banner" aria-label="Hero: White Water Rafting">
+      <img src="images/rafting22_600.jpg" alt="Group rafting through whitewater rapids" />
+      <h1>Ride the Rapids — Adventure Awaits</h1>
+      <article>
+        <p>From family floats to expert-level rapids, White Water Rafting Co. guides you through unforgettable river journeys. Safety-first, fun-always.</p>
+        <p><a class="btn" href="trips.html">Explore Our Trips</a></p>
+      </article>
+    </section>
+
+    <!-- NEWSLETTER & CTA -->
+    <section class="cta" aria-labelledby="newsletter-heading">
+      <div class="newsletter-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;align-items:center;max-width:1000px;margin:0 auto;">
+        <div>
+          <h2 id="newsletter-heading">Join our Newsletter</h2>
+          <p>Get trip specials, safety tips, and local river updates monthly.</p>
+          <form id="newsletter-form" action="#" method="post" aria-label="Newsletter signup form">
+            <div>
+              <label for="nl-name">Full name</label>
+              <input type="text" id="nl-name" name="name" required>
+            </div>
+            <div>
+              <label for="nl-email">Email address</label>
+              <input type="email" id="nl-email" name="email" required>
+            </div>
+            <div>
+              <button type="submit">Subscribe to Newsletter</button>
+            </div>
+          </form>
+        </div>
+
+        <div style="text-align:center;">
+          <h3>Ready to book?</h3>
+          <p>Reserve your spot early for the best dates and guides.</p>
+          <p><a class="btn" href="trips.html">Book A Trip — See Options</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRID CONTENT (uses CSS Grid semantics) -->
+    <section class="info-grid" aria-labelledby="what-we-offer">
+      <h2 id="what-we-offer" style="grid-column:1/-1;text-align:center;">What We Offer</h2>
+
+      <article class="grid-item">
+        <img src="images/thrill_ride.jpg" alt="Family rafting" />
+        <h3>Family Float Trips</h3>
+        <p>Gentle stretches of river ideal for families and beginner paddlers — learn the basics and enjoy scenic views.</p>
+      </article>
+
+      <article class="grid-item">
+        <img src="images/happy.jpg" alt="Class IV rapid" />
+        <h3>Thrill Seeker Rapids</h3>
+        <p>High-adrenaline runs for experienced rafters. Expert guides and premium safety equipment included.</p>
+      </article>
+
+      <article class="grid-item">
+        <img src="images/hero.jpg" alt="Guided sunset trip" />
+        <h3>Sunset & Photography Trips</h3>
+        <p>Slow-paced evening floats focused on photography, wildlife, and relaxation — perfect for couples and photographers.</p>
+      </article>
+    </section>
+
+    <!-- FEATURED TRIPS CARDS -->
+    <section class="trip-cards" aria-labelledby="featured-trips" style="padding:2rem 0;">
+      <h2 id="featured-trips" style="width:100%;text-align:center;">Featured Trips</h2>
+      <div class="trip-card">
+        <img src="images/big_mallard.jpg" alt="Big Mallard rapid">
+        <h3>Big Mallard — Half Day</h3>
+        <p>Fast-paced half-day trip with exciting rapids and riverside picnic options.</p>
+        <p><a class="btn" href="trips.html#big-mallard">Learn More</a></p>
+      </div>
+
+      <div class="trip-card">
+        <img src="images/los_dientes.jpg" alt="Los Dientes del Diablo">
+        <h3>Los Dientes — Full Day</h3>
+        <p>Full-day expedition through canyon sections, with river-side lunch and guide-led instruction.</p>
+        <p><a class="btn" href="trips.html#los-dientes">Learn More</a></p>
+      </div>
+
+      <div class="trip-card">
+        <img src="images/half_day.jpg" alt="Half day adventure">
+        <h3>Half Day Family Adventure</h3>
+        <p>A family-friendly half-day with calmer waters and kid-safe activities on the shore.</p>
+        <p><a class="btn" href="trips.html#half-day">Learn More</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 White Water Rafting Co. | Malcom X</p>
+    <div class="socials">
+      <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="images/twitter.svg" alt="Twitter"></a>
+      <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+    </div>
+  </footer>
+</body>
+</html>
