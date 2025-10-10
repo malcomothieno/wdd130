@@ -582,3 +582,78 @@ nav a {
   background-color: grey;
   color: white;
 }
+
+
+/* ====== ADDITIONS FOR HOME & TRIPS PAGES ====== */
+
+/* Generic Button Style */
+.btn,
+button[type="submit"],
+button {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: #264653;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn:hover,
+button[type="submit"]:hover {
+    background: #1e3642;
+}
+
+/* Hero Heading on Home */
+.home-hero h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Newsletter Section Fix */
+.cta form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.cta form div {
+    margin-bottom: 1rem;
+}
+
+/* Grid Layout Fix */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Trip Cards */
+.trip-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 2rem;
+}
+.trip-card {
+    width: 300px;
+    background: #f7f7f7;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.trip-card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 0.8rem;
+}
